@@ -1,0 +1,70 @@
+.table input{
+	width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#6a42d8, #39dfb5);
+}
+
+html {
+    height: 100%;
+}
+
+.table tr:nth-child(1) {
+	background-color: #854442;
+	color: #DFCCAF;
+	text-align: center;
+	
+}
+
+.table td:nth-child(1) {
+	text-align: center;
+	line-height: 32px;
+	background-color: #854442;
+	color: #DFCCAF;
+	
+}
+
+tr.rosa {
+	background-color: rgb(250, 204, 187);
+}
+
+/* Apply styles to all number inputs */
+input[type="number"] {
+    /* Your styling here */
+    padding: 5px;
+    border: 1px solid #6F4436;
+    border-radius: 4px;
+    box-shadow: inset 0 3px 2px rgba(145, 97, 81, 0.6);
+	background-color: #7a5042;
+}
+
+
+input::placeholder{
+	color: #2e140c;
+}
+
+input {
+	color: #DFCCAF;
+}
+
+#pl {
+	margin-top: 1px;
+	padding: 0px 0px 1px 0px;
+	background-color: #854442;
+	color: #DFCCAF;
+	width: 16rem;
+	text-align: center;
+	line-height: 3rem;
+}
+
+div.roseta{
+	background-color: black;
+}
+
+button {
+    background-color: #854442;
+    border: none;
+    border-radius: 20px;
+    margin-left: 9%;
+}
