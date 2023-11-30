@@ -15,6 +15,7 @@ function updateProf() {
     document.getElementById('profBonus').value = profBonus;
 }
 
+
 function randomDie() {
     return (Math.random() * 6) + 1;
 }
